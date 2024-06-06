@@ -1,0 +1,10 @@
+pandoc: 3.1.11
+pkgdown: 2.0.9
+pkgdown_sha: ~
+articles:
+  FinalProj561: FinalProj561.html
+last_built: 2024-06-06T16:54Z
+urls:
+  reference: https://chenyihan1999.github.io/FinalProj561/reference
+  article: https://chenyihan1999.github.io/FinalProj561/articles
+
