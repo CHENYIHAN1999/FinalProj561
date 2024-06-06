@@ -20,6 +20,8 @@ knitr::opts_chunk$set(
 
 The goal of FinalProj561 is to ...
 
+PkgDown URL: https://chenyihan1999.github.io/FinalProj561/
+
 ## Installation
 
 You can install the development version of FinalProj561 like so:
