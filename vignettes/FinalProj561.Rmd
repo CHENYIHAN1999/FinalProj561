@@ -1,0 +1,42 @@
+---
+title: "FinalProj561"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{FinalProj561}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(FinalProj561)
+```
+
+generate_samples
+
+```{r}
+re <- generate_samples(5, 10, 70, 3.3)
+re
+```
+
+calculate_means_and_plot
+
+```{r, fig.align = 'center'}
+mean_re <- calculate_means_and_plot(re)
+mean_re
+```
+
+count_values_and_plot_histogram
+
+```{r, fig.align = 'center'}
+samples_re <- re$samples
+count_re <- count_values_and_plot_histogram(samples_re, 70, "smaller")
+count_re
+```
+
